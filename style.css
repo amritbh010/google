@@ -1,0 +1,242 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* box-sizing: border-box; */
+}
+
+.main {
+  background-color: rgb(30, 30, 30);
+  /* background: url(./22.jpg); */
+  /* height: 100vh; */
+  width: 100%;
+  background-size: cover;
+}
+
+.body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  background-color: aquamarine;
+  height: 10rem;
+  width: 10rem;
+}
+
+.best {
+  height: 90vh;
+}
+
+.nev {
+  padding: 5px;
+  background: transparent;
+  backdrop-filter: blur(2px);
+  /*   background-color: rgb(30, 30, 30); */
+  display: flex;
+  align-items: end;
+  justify-content: end;
+  justify-content: end;
+}
+
+.gmail {
+  color: aliceblue;
+  padding: 9px 5px;
+  text-decoration: none;
+}
+
+.gmail:hover {
+  text-decoration: underline;
+  border-radius: 5px;
+  box-shadow: 1px 1px 5px black;
+}
+
+.images {
+  color: aliceblue;
+  padding: 9px 15px;
+  text-decoration: none;
+}
+.images:hover {
+  text-decoration: underline;
+  border-radius: 5px;
+  box-shadow: 1px 1px 5px black;
+}
+
+.signin {
+  color: white;
+  padding: 9px 20px;
+  /* border: blue 1px solid; */
+  /* border: solid 1px ; */
+  border: none;
+  border-radius: 3px;
+  box-shadow: 1px 1px 3px rgb(0, 0, 0);
+  backdrop-filter: blur(10px);
+  /*   background-color: #1a73e8; rgb(81, 81, 150) */
+  backdrop-filter: blur(5px);
+  text-decoration: none;
+}
+
+.signin:hover {
+  text-decoration: underline;
+  box-shadow: 1px 1px 15px rgb(0, 0, 0);
+}
+
+.Google1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Google {
+  height: 180px;
+  aspect-ratio: 16/9;
+}
+
+.search {
+  color: aliceblue;
+  font-weight: 600;
+  font-size: 15px;
+  /* background-color: rgb(30, 30, 30); */
+  background: transparent;
+  backdrop-filter: blur(4px);
+  width: 30rem;
+  padding: 0.9rem 3rem;
+  /*   border: 0.1px solid rgb(84, 84, 84); */
+  border: none;
+  border-radius: 50px;
+  box-shadow: 1px 1px 5px rgb(0, 0, 0);
+  outline: none;
+}
+
+.search1 {
+  /*   background-color: rgb(30, 30, 30); */
+  background: transparent;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search1 i {
+  color: aliceblue;
+  position: absolute;
+  transform: translateX(-16.5rem);
+}
+
+.search:hover {
+  /*   border: rgb(39, 39, 39); */
+  /* border: none; */
+  box-shadow: 1px 1px 15px rgb(0, 0, 0);
+  /* background-color: rgb(39, 39, 39); */
+  backdrop-filter: blur(10px);
+  outline: none;
+}
+
+.button1 {
+  margin-right: 0.6rem;
+  margin-top: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button {
+  padding: 0.7rem;
+  border-radius: 5px;
+  /*  border: solid rgb(0, 0, 0) 1px; */
+  border: none;
+  box-shadow: 1px 1px 5px rgb(0, 0, 0);
+  /*   background-color: rgb(58, 57, 57); */
+  background: transparent;
+  backdrop-filter: blur(5px);
+  color: rgb(255, 255, 255);
+}
+
+.button:hover {
+  /*   border: solid rgb(0, 0, 0) 1px;*/
+  border: none;
+  box-shadow: 1px 1px 15px rgb(0, 0, 0);
+}
+
+.lucky1 {
+  margin-top: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.lucky {
+  padding: 0.7rem;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(58, 57, 57);
+  color: aliceblue;
+}
+
+.lucky:hover {
+  border: solid gray 1px;
+}
+
+.buly {
+  margin: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bottom {
+  /* margin-top: 11.9rem; */
+  padding: 1rem;
+  padding-left: 1.4rem;
+  color: aliceblue;
+  /*  background-color: rgb(17, 17, 17); */
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+
+.bmain {
+  backdrop-filter: blur(2px);
+  padding: 1rem;
+  padding-left: 1rem;
+  /*   background-color: rgb(17, 17, 17); */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* .bmain1{
+  color: rgb(0, 136, 255);
+  display: flex;
+  align-items: end;
+  justify-content: space-between  ;
+} */
+
+.you {
+  color: aliceblue;
+  padding: 0.4rem;
+  text-decoration: none;
+}
+.you:hover {
+  text-decoration: underline;
+  box-shadow: 1px 1px 5px black;
+  border-radius: 8px;
+}
+
+.you2 {
+  color: aliceblue;
+  padding: 0.4rem;
+  text-decoration: none;
+}
+
+.you2:hover {
+  text-decoration: underline;
+  box-shadow: 1px 1px 5px black;
+  border-radius: 8px;
+}
+
+.lu {
+  margin-left: 0.3rem;
+  margin-top: 1.4rem;
+}
+
+.go {
+  margin-right: 0.3rem;
+  margin-top: 1.4rem;
+}
